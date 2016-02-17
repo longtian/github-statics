@@ -7,7 +7,7 @@
 
   function show(name) {
     document.getElementById('input').value = name;
-    fetch(`https://api.github.com/users/${name}/repos?per_page=1024`)
+    fetch(`https://api.github.com/users/${name}/repos?per_page=1024&sort=created&direction=asc`)
       .then(res=>res.json())
       .then(function (list) {
         //list = list.filter(a=>new Date(a.created_at).getFullYear() == 2015)
