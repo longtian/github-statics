@@ -12,7 +12,7 @@ function render(e) {
       drawLine(list);
       drawPie(list)
       var sum = list.reduce((sum, a)=>sum + a.stargazers_count, 0)
-      document.getElementById('sum').innerHTML = sum;
+      document.getElementById('sum').innerText = sum;
     });
   return false;
 }
