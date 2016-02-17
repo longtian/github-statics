@@ -6,6 +6,6 @@
 - Star 数量
 - Star 统计
 
-[DEMO](http://wyvernnot.github.io/github-statics/)
+[DEMO](http://wyvernnot.github.io/github-statics/?username=wyvernnot)
 
 ![screenshot](./screenshot.png)
